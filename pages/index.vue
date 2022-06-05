@@ -2,7 +2,7 @@
   <div class="index">
     <div class="body">
       <div class="desk-display">
-        <h1>Apenas suporte mobile, abre esse link no seu dispositivo movel</h1>
+        <h1>Apenas suporte mobile, abra esse link no seu dispositivo movel</h1>
         <a
           href="https://play.google.com/store/apps/details?id=com.app.tcc.tccapp"
           target="_blank"
@@ -31,14 +31,14 @@
           <p>{{ contentText }}</p>
         </div>
         <div class="links-content">
-          <nuxt-link class="nuxt-links" to="#">
-            <img
-              src="@/assets/img/setup.png"
-              alt="github"
-              srcset="@/assets/img/setup.png"
-            />
+          <a
+            href="https://github.com/Gabrielfernandes87f"
+            target="_blank"
+            class="nuxt-links"
+          >
+            <img src="@/assets/img/setup.png" alt="github" />
             <span>meu github</span>
-          </nuxt-link>
+          </a>
         </div>
       </div>
     </div>

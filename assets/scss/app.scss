@@ -96,6 +96,7 @@
      margin-top: 20px;
      margin-bottom: 20px;
      background-color: rgb(99, 43, 6);
+     border-radius: 10px;
      padding: 5px 20px;
      margin: 20px 50px;
 
@@ -118,6 +119,16 @@
      display: flex;
      align-items: center;
      background-color: #acff2f00;
+
+     a {
+         transition: all 0.3s;
+         cursor: pointer;
+         padding: 20px;
+
+         &:hover {
+             color: #adff2f;
+         }
+     }
 
      span {
          margin-left: 100px;
