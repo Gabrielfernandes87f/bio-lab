@@ -178,7 +178,7 @@ export default {
       name: "Gabriel Fernandes",
       desccription: "Desenvolvedor fullstack web",
       desccription2: " PHP - Laravel - Vue - NuxtJs - SQL ",
-      msg: "Espere menos, faça muito, tudo depende de você",
+      msg: "A persistência é o caminho do êxito.",
       contentText: "Tenha seu link na bio, chama no direct",
     };
   },
