@@ -54,8 +54,8 @@
           <p>{{ contentText }}</p>
         </div>
 
-        <div class="div-flex-center">
-          <div class="card meuslinks">
+        <div class="card meuslinks">
+          <div class="div-flex-center">
             <h1>Meus links</h1>
           </div>
         </div>
