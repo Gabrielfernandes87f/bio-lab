@@ -2,7 +2,13 @@
   <div class="index">
     <div class="body">
       <div class="desk-display">
-        <h1>Apenas suporte mobile, abra esse link no seu dispositivo movel</h1>
+        <h1>Bem vindos!</h1>
+        <p>
+          Fiz essa pagina apenas para divulgar o app
+          <strong class="bio-lab">Bio-lab</strong>
+        </p>
+        <p>baixe na Play store</p>
+
         <a
           href="https://play.google.com/store/apps/details?id=com.app.tcc.tccapp"
           target="_blank"
@@ -10,36 +16,155 @@
           <img
             src="https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png"
             alt="Download Android"
+            class="google-play"
           />
         </a>
-      </div>
-      <div class="main">
-        <div class="main-title">
-          <img
-            class="avatar-perfil"
-            src="@/assets/img/setup.png"
-            alt="avatar"
-            srcset="@/assets/img/setup.png"
-          />
-          <h1 class="name">{{ name }}</h1>
-          <h2>{{ desccription }}</h2>
-          <h3>{{ desccription2 }}</h3>
-          <hr />
+        <p>Essa pagina foi otimizada pra dispositivos mobile.</p>
+        <div class="div-flex-center">
+          <p>Veja no seu computador</p>
+          <a href="#" target="_blank" class="link-pc">clicando aqui </a>
         </div>
-        <div class="content-description">
-          <p>{{ msg }}</p>
+      </div>
+
+      <div class="main">
+        <div class="main-content">
+          <div class="div-img div-avatar">
+            <img
+              class="avatar-perfil"
+              src="@/assets/img/perfil.jpg"
+              alt="avatar"
+              srcset="@/assets/img/perfil.jpg"
+            />
+          </div>
+          <div class="description-body">
+            <div class="div-flex-center">
+              <h1 class="name">{{ name }}</h1>
+            </div>
+            <div class="div-flex-center">
+              <h2>{{ desccription }}</h2>
+            </div>
+            <div class="div-flex-center">
+              <h3>{{ desccription2 }}</h3>
+            </div>
+            <hr />
+            <p class="sub-title div-flex-center">{{ msg }}</p>
+          </div>
+        </div>
+        <div class="content-description div-flex-center">
           <p>{{ contentText }}</p>
         </div>
-        <div class="links-content">
-          <a
-            href="https://github.com/Gabrielfernandes87f"
-            target="_blank"
-            class="nuxt-links"
-          >
-            <img src="@/assets/img/setup.png" alt="github" />
-            <span>meu github</span>
-          </a>
+
+        <div class="links-content-body">
+          <div class="content card">
+            <h1>Meus links</h1>
+          </div>
         </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://github.com/Gabrielfernandes87f"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img
+                  class="img-svg"
+                  src="@/assets/img/github.png"
+                  alt="github"
+                />
+              </div>
+              <span class="div-flex-center-end">Github</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://www.linkedin.com/in/gabrielfernandesweb/"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img src="@/assets/img/linkedin.png" alt="linkedin" />
+              </div>
+              <span class="div-flex-center-end">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a href="https://meuevento.tech" target="_blank" class="nuxt-links">
+              <div class="div-img img-content">
+                <img src="@/assets/img/tela-meuevento.png" alt="github" />
+              </div>
+              <span class="div-flex-center-end">Api-next</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://github.com/Gabrielfernandes87f"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img src="@/assets/img/setup.png" alt="github" />
+              </div>
+              <span class="div-flex-center-end">Meu Github</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://github.com/Gabrielfernandes87f"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img src="@/assets/img/setup.png" alt="github" />
+              </div>
+              <span class="div-flex-center-end">Meu Github</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://github.com/Gabrielfernandes87f"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img src="@/assets/img/setup.png" alt="github" />
+              </div>
+              <span class="div-flex-center-end">Meu Github</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
+        <div class="links-content-body">
+          <div class="links-content card">
+            <a
+              href="https://github.com/Gabrielfernandes87f"
+              target="_blank"
+              class="nuxt-links"
+            >
+              <div class="div-img img-content">
+                <img src="@/assets/img/setup.png" alt="github" />
+              </div>
+              <span class="div-flex-center-end">Meu Github</span>
+            </a>
+          </div>
+        </div>
+        <!-- fim -->
       </div>
     </div>
   </div>
@@ -53,9 +178,8 @@ export default {
       name: "Gabriel Fernandes",
       desccription: "Desenvolvedor fullstack web",
       desccription2: " PHP - Laravel - Vue - NuxtJs - SQL ",
-      msg: "A vida é uma coisa que se pode mudar, mas a mudança é uma coisa que se pode perder.",
-      contentText:
-        "Sou fotógrafo profissional, Com 8 anos de carreira. hoje trabalho como freelancer, desenvolvendo sites e aplicativos para web",
+      msg: "Espere menos, faça muito, tudo depende de você",
+      contentText: "Tenha seu link na bio, chama no direct",
     };
   },
 };
