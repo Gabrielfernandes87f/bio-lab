@@ -14,8 +14,12 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
     font-size: 18px;
+    overflow-x: hidden;
+
+    @media (min-width: 600px) {
+        overflow: hidden;
+    }
 }
 
 .index {
@@ -36,10 +40,12 @@ html {
     font-size: 1.5rem;
 
 
-    @media (min-width: 768px) {
+
+    @media (min-width: 600px) {
         display: flex;
         color: $color-text;
         font-weight: bold;
+
 
         a.link-pc {
             color: red;
@@ -79,8 +85,10 @@ html {
     color: $color-text;
     margin-top: 50px;
 
-    @media (min-width: 768px) {
+
+    @media (min-width: 600px) {
         display: none;
+
     }
 
 }
@@ -138,6 +146,7 @@ hr {
 
 .content-description {
     padding-bottom: 20px;
+    font-size: $font-sinzing-h1-links ;
 }
 
 .nuxt-links {
