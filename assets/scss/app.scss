@@ -9,127 +9,244 @@ $font-sinzing-h1-name: 1.3rem;
 
 *,
 html {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 18px;
-    overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  overflow-x: hidden;
 
-    @media (min-width: 600px) {
-        overflow: hidden;
-    }
+  @media (min-width: 600px) {
+    overflow: hidden;
+  }
 }
 
 .index {
-    width: 100%;
-    height: 100%;
-    background-color: $color-background;
+  width: 100%;
+  height: 100%;
+  background-color: $color-background;
 }
 
 .desk-display {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-background;
+  display: none;
+  font-size: 1.5rem;
+
+
+
+  @media (min-width: 600px) {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: $color-background;
-    display: none;
-    font-size: 1.5rem;
+    color: $color-text;
+    font-weight: bold;
 
 
-
-    @media (min-width: 600px) {
-        display: flex;
-        color: $color-text;
-        font-weight: bold;
-
-
-        a.link-pc {
-            color: red;
-            margin-left: 5px;
-            animation: link-pc 5s infinite;
-        }
-
+    a.link-pc {
+      color: red;
+      margin-left: 5px;
+      animation: link-pc 5s infinite;
     }
+
+  }
 }
 
 @keyframes link-pc {
-    0% {
-        color: rgb(0, 200, 255);
-    }
+  0% {
+    color: rgb(0, 200, 255);
+  }
 
-    30% {
-        color: rgb(144, 61, 202)
-    }
+  30% {
+    color: rgb(144, 61, 202)
+  }
 
-    50% {
-        color: rgb(82, 0, 141)
-    }
+  50% {
+    color: rgb(82, 0, 141)
+  }
 
-    70% {
-        color: rgb(183, 4, 88)
-    }
+  70% {
+    color: rgb(183, 4, 88)
+  }
 
-    100% {
-        color: rgb(195, 110, 255)
-    }
+  100% {
+    color: rgb(195, 110, 255)
+  }
 }
 
 .main {
-    width: 100%;
-    height: 100%;
-    padding: 10px 30px 50px 30px;
-    color: $color-text;
-    margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px 50px 30px;
+  color: $color-text;
+  margin-top: 50px;
 
 
-    @media (min-width: 600px) {
-        display: none;
+  @media (min-width: 600px) {
+    display: none;
 
-    }
+  }
 
 }
 
 .description-body {
-    padding: 20px 0 20px;
+  padding: 20px 0 20px;
 }
 
 h1 {
-    font-weight: bold;
-    font-size: $font-sinzing-h1-name;
+  font-weight: bold;
+  font-size: $font-sinzing-h1-name;
 }
 
 
 
 
 hr {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .sub-title {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .content h1 {
-    font-size: $font-sinzing-h1-title;
-    font-weight: bold;
+  font-size: $font-sinzing-h1-title;
+  font-weight: bold;
 }
 
 /* span card */
 .div-flex-center-end {
-    display: flex;
-    align-items: center;
-    /* alinha horizontal */
-    justify-content: flex-end;
-    /* alinha horizontal */
+  display: flex;
+  align-items: center;
+  /* alinha horizontal */
+  justify-content: flex-end;
+  /* alinha horizontal */
 
 }
 
 .card {
-    display: block;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-card;
+  width: 100%;
+  border-radius: 5px;
+  margin: 0 0 30px;
+  padding: 5px 20px 5px 5px;
+}
+
+.meuslinks {
+  background-color: rgba(0, 255, 255, 0.26);
+  padding: 5px 20px;
+}
+
+.content-description {
+  padding-bottom: 20px;
+  font-size: $font-sinzing-h1-links ;
+}
+
+.nuxt-links {
+
+  display: grid;
+  grid-template-columns: 30% auto;
+  margin: 0;
+
+}
+
+span {
+  font-size: $font-sinzing-h1-links;
+  font-weight: bold;
+  text-align: end;
+
+}
+
+.links-content.car {
+  display: block;
+}
+
+
+
+
+.avatar-perfil {
+  display: flex;
+  margin: 50px 0 10px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 2px rgb(0, 3, 179);
+}
+
+.img-content img {
+  border-radius: 10px;
+  object-fit: cover;
+  box-sizing: content-box;
+  height: 70px;
+  width: 350px;
+
+}
+
+.div-flex-center {
+  display: flex;
+  align-items: center;
+  /* alinha horizontal */
+  justify-content: center;
+  /* alinha horizontal */
+}
+
+#svg {
+  color: red;
+}
+
+.bg-warring {
+  background-color: rgb(226, 7, 7);
+}
+
+
+// tela desktop
+
+
+.index-desktop {
+  background-color: $color-background;
+  width: 100vw;
+  height: 100vh;
+  padding: 50px 20px;
+  color: #fff;
+  overflow-y: auto;
+  position: relative;
+
+  .theme {
+    display: flex;
+    position: static;
+
+    margin: 10px 70vw;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      transform: scale(1.1);
+    }
+  }
+
+  .flex-center {
+    text-align: justify;
+  }
+
+  .email-desktop {
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: $color-card;
@@ -137,67 +254,29 @@ hr {
     border-radius: 5px;
     margin: 0 0 30px;
     padding: 5px 20px 5px 5px;
-}
+  }
 
-.meuslinks {
-    background-color: rgba(0, 255, 255, 0.26);
-    padding: 5px 20px;
-}
-
-.content-description {
-    padding-bottom: 20px;
-    font-size: $font-sinzing-h1-links ;
-}
-
-.nuxt-links {
-
-    display: grid;
-    grid-template-columns: 30% auto;
-    margin: 0;
-
-}
-
-span {
-    font-size: $font-sinzing-h1-links;
-    font-weight: bold;
-    text-align: end;
-
-}
-
-.links-content.car {
-    display: block;
-}
-
-
-
-
-.avatar-perfil {
+  .card {
     display: flex;
-    margin: 50px 0 10px;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.img-content img {
-    border-radius: 10px;
-    object-fit: cover;
-    box-sizing: content-box;
-    height: 70px;
-    width: 350px;
-
-}
-
-.div-flex-center {
-    display: flex;
-    align-items: center;
-    /* alinha horizontal */
     justify-content: center;
-    /* alinha horizontal */
+    align-items: center;
+
+    .image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
 }
 
-#svg {
-    color: red;
+#dark {
+  background-color: #000;
+  color: #fff;
+
+}
+
+#light {
+  background-color: #fff;
+  color: #000;
+
 }

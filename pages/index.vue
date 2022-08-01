@@ -16,7 +16,7 @@
         <p>Essa pagina foi otimizada pra dispositivos mobile.</p>
         <div class="div-flex-center">
           <p>Veja no seu computador</p>
-          <a href="#" target="_blank" class="link-pc">clicando aqui </a>
+          <nuxt-link class="link-pc" to="home-web">Clicando aqui</nuxt-link>
         </div>
       </div>
 
@@ -49,91 +49,91 @@
           </div>
         </div>
         <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://github.com/Gabrielfernandes87f" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img class="img-svg" src="@/assets/img/github.png" alt="github" />
+
+        <div class="links-content-body ">
+            <Card
+              :srcCard="'../_nuxt/assets/img/linkedin.png'"
+              :altCard="'linkedin'"
+              :nameCard="'linkedin'"
+            />
+        </div>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://www.linkedin.com/in/gabrielfernandesweb/" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/linkedin.png" alt="linkedin" />
+                    </div>
+                    <span class="div-flex-center-end">LinkedIn</span>
+                  </a>
+                </div>
               </div>
-              <span class="div-flex-center-end">Github</span>
-            </a>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://meuevento.tech" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/tela-meuevento.png" alt="github" />
+                    </div>
+                    <span class="div-flex-center-end">Api-next</span>
+                  </a>
+                </div>
+              </div>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://www.instagram.com/gabriel.fernandes.f/" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/setup.png" alt="github" />
+                    </div>
+                    <span class="div-flex-center-end">Instagram</span>
+                  </a>
+                </div>
+              </div>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://gabrielfernandes87f.github.io/my-pages/" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/setup.png" alt="github" />
+                    </div>
+                    <span class="div-flex-center-end">Git page</span>
+                  </a>
+                </div>
+              </div>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://github.com/Gabrielfernandes87f/patins" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/setup.png" alt="github" />
+                    </div>
+                    <span class="div-flex-center-end">Laravel - patins</span>
+                  </a>
+                </div>
+              </div>
+              <!-- fim -->
+              <div class="links-content-body">
+                <div class="links-content card">
+                  <a href="https://github.com/Gabrielfernandes87f" target="_blank" class="nuxt-links">
+                    <div class="div-img img-content">
+                      <img src="@/assets/img/setup.png" alt="github" />
+                    </div>
+                    <span class="div-flex-center-end">Meu Github</span>
+                  </a>
+                </div>
+              </div>
+              <!-- fim -->
           </div>
         </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://www.linkedin.com/in/gabrielfernandesweb/" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/linkedin.png" alt="linkedin" />
-              </div>
-              <span class="div-flex-center-end">LinkedIn</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://meuevento.tech" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/tela-meuevento.png" alt="github" />
-              </div>
-              <span class="div-flex-center-end">Api-next</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://www.instagram.com/gabriel.fernandes.f/" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/setup.png" alt="github" />
-              </div>
-              <span class="div-flex-center-end">Instagram</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://gabrielfernandes87f.github.io/my-pages/" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/setup.png" alt="github" />
-              </div>
-              <span class="div-flex-center-end">Git page</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://github.com/Gabrielfernandes87f/patins"
-             target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/setup.png" alt="github" />
-              </div>
-              <span class="div-flex-center-end">Laravel - patins</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
-        <div class="links-content-body">
-          <div class="links-content card">
-            <a href="https://github.com/Gabrielfernandes87f" target="_blank" class="nuxt-links">
-              <div class="div-img img-content">
-                <img src="@/assets/img/setup.png" alt="github" />
-              </div>
-              <span class="div-flex-center-end">Meu Github</span>
-            </a>
-          </div>
-        </div>
-        <!-- fim -->
       </div>
-    </div>
-  </div>
 </template>
 
 <script>
+import Card from '~/components/card';
+
 export default {
+  components: { Card },
   name: "IndexPage",
   data() {
     return {
@@ -142,7 +142,11 @@ export default {
       desccription2: " PHP - Laravel - VueJs - NuxtJs - SQL ",
       msg: "A persistência é o caminho do êxito.",
       contentText: "Resolvendo problemas digitais de empresários ou instiuições no que tange a propagações das informações sobre seus negócios e suas atividades. visando a captação de novos clientes e aumentando os lucros, ao mesmo tempo que ajuda a melhorar a qualidade de vida dos seus usuários.",
+      srcCard: "",
+      altCard: "",
+      nameCard: "",
+
     };
-  },
+  }
 };
 </script>

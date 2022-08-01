@@ -46,6 +46,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: 'NuxtTutorial'
 }
